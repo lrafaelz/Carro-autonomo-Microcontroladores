@@ -17,7 +17,7 @@ void setup() {
 }
 
 void loop() {
-  analogWrite(motorB1, 0);
+  analogWrite(motorB1, vSpeed);
   analogWrite(motorA1, vSpeed);
   analogWrite(motorA2, 0);
   analogWrite(motorB2, 0);
